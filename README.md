@@ -4,4 +4,4 @@ Instrutor: Alexandre Andrade
 Início do treinamento: 18/03/2014
 Fim do treinamento: ??
 # Aulas
-[Aula #1](aulas/001.md)
+[Aula #1](https://github.com/luizpedone/treinamento-web2py/blob/master/aulas/)
