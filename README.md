@@ -1,7 +1,7 @@
 # Treinamento de web2py
 Repositório de anotações do treinamento de web2py oferecido pela Sub-secretaria de Esportes.
-
 Instrutor: Alexandre Andrade
-
+Início do treinamento: 18/03/2014
+Fim do treinamento: ??
 # Aulas
-Aula #0
+[Aula #1](aulas/001.md)
