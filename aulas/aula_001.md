@@ -53,12 +53,12 @@ Após este procedimento, o servidor do framework será iniciado automaticamente 
 Para executar o web2py pelo Pycharm é necessário fazer uma configuração inicial.
 
 O caminho mais fácil é:
-1. Abra o arquivo db.py
-2. Vá ao menu 'Run' -> 'Run db.py'. Na primeira vez vai dar um erro.
-3. Volte ao menu 'Run' mas desta vez vá em 'Edit configurations'.
-4. No lado esquerdo, selecione 'db'.
-5. No lado direito, altere a primeira linha 'Script', selecionando o arquivo web2py.py no diretorio web2py, Ex: 'c:\dev\web2py\web2py.py'
-6. Ao executar 'Run' novamente no projeto, irá inicar o web2py.
+- 1. Abra o arquivo db.py
+- 2. Vá ao menu 'Run' -> 'Run db.py'. Na primeira vez vai dar um erro.
+- 3. Volte ao menu 'Run' mas desta vez vá em 'Edit configurations'.
+- 4. No lado esquerdo, selecione 'db'.
+- 5. No lado direito, altere a primeira linha 'Script', selecionando o arquivo web2py.py no diretorio web2py, Ex: 'c:\dev\web2py\web2py.py'
+- 6. Ao executar 'Run' novamente no projeto, irá inicar o web2py.
 
 ### 5. Adicionando uma nova aplicação
 Na página inicial do web2py, clique em "Administrative Interface". Será socilitada a senha definida anteriormente.
