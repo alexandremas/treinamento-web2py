@@ -36,6 +36,7 @@ Execute o comando abaixo
 ### 4. Executando o web2py
 Para executar o web2py, vá até a pasta onde você salvou o framework e execute o arquivo web2py.py
 
+#### 4.1 Pelo terminal
 Caso esteja utilizando o Terminal, execute
 ```python
  python web2py.py
@@ -46,6 +47,18 @@ Irá surgir a tela de inicialização do web server nativo do framework. Basta a
  ![Tela de inicialização do servidor](img/interface_servidor.png)
 
 Após este procedimento, o servidor do framework será iniciado automaticamente e uma página de "Welcome" será aberta no seu navegador.
+
+#### 4.2 Pelo Pycharm
+
+Para executar o web2py pelo Pycharm é necessário fazer uma configuração inicial.
+
+O caminho mais fácil é:
+1. Abra o arquivo db.py
+2. Vá ao menu 'Run' -> 'Run db.py'. Na primeira vez vai dar um erro.
+3. Volte ao menu 'Run' mas desta vez vá em 'Edit configurations'.
+4. No lado esquerdo, selecione 'db'.
+5. No lado direito, altere a primeira linha 'Script', selecionando o arquivo web2py.py no diretorio web2py, Ex: 'c:\dev\web2py\web2py.py'
+6. Ao executar 'Run' novamente no projeto, irá inicar o web2py.
 
 ### 5. Adicionando uma nova aplicação
 Na página inicial do web2py, clique em "Administrative Interface". Será socilitada a senha definida anteriormente.
