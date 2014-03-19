@@ -66,9 +66,21 @@ O caminho mais fácil é:
 - 6. Ao executar 'Run' novamente no projeto, irá inicar o web2py.
 
 ### 5. Adicionando uma nova aplicação
+
+#### 5.1 Pela interface do Web2py
 Na página inicial do web2py, clique em "Administrative Interface". Será socilitada a senha definida anteriormente.
 
 Na tela seguinte, procure "New simple application". Dê um nome e clique em "Create". Uma nova aplicação irá aparecer na lista de aplicações disponíveis.
+
+#### 5.2 Copiando o diretorio
+
+No web2py, uma nova aplicação é uma cópia da aplicação welcome para dentro do diretório applications . Copiando e renomeando a aplicação welcome ou outra aplicação existente, o web2py automaticamente reconhece a nova aplicação.
+
+#### 5.3 Utilizando o Wizard
+
+Utilizando a 'Administrative Interface', é possível criar uma nova aplicação, escolhendo layout, criando novas tabelas e campos, páginas, conteúdo das paginas. O wizard inclusive cria páginas para o gerenciamento de cada tabela.
+
+
 
 ### 6. Desenvolvendo a aplicação
 Agora iremos trabalhar com o código da aplicação. Abra a IDE ou o editor de texto de sua preferência (no caso do curso, utilizamos o PyCharm) e adicione um novo projeto. Vá até a raíz do framework, procure a pasta applications/nome-da-aplicação.
