@@ -2,6 +2,11 @@
 
 ## Aula 1 (18/03/14)
 
+### Objetivos da aula
+
+- Instalação dos programas necessários
+- Demonstrar a facilidade e potencial do framework
+
 ### 1. Introdução
 - Desenvolvido pelo professor Massimo di Pierro com o objetivo de ensinar programação para estudantes universitários
 - Framework MVC com o objetivo de ser fácil de desenvolver e manter
