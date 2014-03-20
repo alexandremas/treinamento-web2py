@@ -13,8 +13,9 @@ Início do treinamento: 18/03/2014
 Fim do treinamento: 27/05/2014
 
 # Aulas
-[Aula #1](aulas/aula_001.md)
 
+- [Aula #1](aulas/aula_001.md)
+- [Aula #2](aulas/aula_002.md)
 
 # Cronograma
 
