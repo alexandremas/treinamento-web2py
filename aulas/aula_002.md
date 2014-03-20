@@ -93,6 +93,31 @@ finally:
 ```python
 def soma(a, b):
 	return a+b
-	
+
 print soma(3,4) # retorna 7
+print "A soma de %s + %s é %s " % (3, 4, soma(3, 4)) # retorna "A soma de 3 + 4 é 7"
+```
+
+### 4. Classes
+
+```python
+# Implementação da classe pessoa
+# Implementação da classe pessoa
+class Pessoa:
+	name = ""
+	age = 0
+	def __init__(self, name, age):
+		self.name = name
+		self.age  = age
+
+	def isAdult(self):
+		if self.age > 18:
+			return True
+		else:
+			return False
+
+# Uso da classe pessoa
+pessoa = Pessoa("Luiz Felipe Pedone", 26)
+print pessoa.name
+print pessoa.isAdult()
 ```
