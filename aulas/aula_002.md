@@ -117,8 +117,8 @@ class Pessoa:
 
 # Uso da classe pessoa
 pessoa = Pessoa("Luiz Felipe Pedone", 26)
-print pessoa.name
-print pessoa.isAdult()
+print pessoa.name # retorna "Luiz Felipe Pedone"
+print pessoa.isAdult() # retorna 26
 ```
 
 ### 5. Consultas com o web2py
