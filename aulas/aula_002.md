@@ -102,7 +102,6 @@ print "A soma de %s + %s é %s " % (3, 4, soma(3, 4)) # retorna "A soma de 3 + 4
 
 ```python
 # Implementação da classe pessoa
-# Implementação da classe pessoa
 class Pessoa:
 	name = ""
 	age = 0
@@ -120,4 +119,39 @@ class Pessoa:
 pessoa = Pessoa("Luiz Felipe Pedone", 26)
 print pessoa.name
 print pessoa.isAdult()
+```
+
+### 5. Consultas com o web2py
+
+Continuando a aplicação da aula anterior, temos o objeto produto. Este objeto possui os campos:
+
+- Nome
+- Preço
+- Quantidade
+
+Este objeto é definido pelo schema:
+
+``` python
+db.define_table('produto',
+    Field('nome', label="Produto"),
+    Field('preco', 'double', label="Preço"),
+    Field('quantidade', 'double')
+)
+```
+
+Para gerar uma consulta que retorna todos os produtos:
+
+``` python
+rows = db(db.produto).select()
+```
+
+Para filtrar por produtos que tenham preço superior a R$150:
+
+``` python
+rows = db(db.produto.preco > 150).select()
+```
+
+Para filtrar por produtos que tenham preço superior a R$150 e a quantidade maior que 10:
+``` python
+rows = db((db.produto.preco > 150) & (db.produto.quantidade > 10)).select()
 ```
