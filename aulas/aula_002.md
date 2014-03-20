@@ -77,7 +77,7 @@ while x < 10:
 	x = x+1
 ```
 
-- Try, catch, finally
+- Try, except, finally
 
 ``` python
 try:
@@ -102,13 +102,12 @@ print "A soma de %s + %s é %s " % (3, 4, soma(3, 4)) # retorna "A soma de 3 + 4
 
 ```python
 # Implementação da classe pessoa
-class Pessoa:
+class Pessoa(object):
 	name = ""
 	age = 0
 	def __init__(self, name, age):
 		self.name = name
 		self.age  = age
-
 	def isAdult(self):
 		if self.age > 18:
 			return True
@@ -118,7 +117,7 @@ class Pessoa:
 # Uso da classe pessoa
 pessoa = Pessoa("Luiz Felipe Pedone", 26)
 print pessoa.name # retorna "Luiz Felipe Pedone"
-print pessoa.isAdult() # retorna 26
+print pessoa.isAdult() # retorna True
 ```
 
 ### 5. Consultas com o web2py
@@ -142,16 +141,26 @@ db.define_table('produto',
 Para gerar uma consulta que retorna todos os produtos:
 
 ``` python
-rows = db(db.produto).select()
+rows = db(db.produto.id>0).select()
 ```
 
 Para filtrar por produtos que tenham preço superior a R$150:
 
 ``` python
-rows = db(db.produto.preco > 150).select()
+rows = db(db.produto.preco > 150.00).select()
 ```
 
 Para filtrar por produtos que tenham preço superior a R$150 e a quantidade maior que 10:
 ``` python
-rows = db((db.produto.preco > 150) & (db.produto.quantidade > 10)).select()
+rows = db((db.produto.preco > 150.00) & (db.produto.quantidade > 10.00)).select()
 ```
+
+### 6. HTML, CSS e Javascript
+
+O resultado da programação com o Web2py é uma página HTML que inclui CSS e javascript.
+
+O HTML é uma notação para organizar a apresentação de conteúdo, enquanto o CSS é uma notação para definir atributos de apresentação deste conteúdo.
+O Javascript é uma linguagem para alterar e operar dinâmicamente o conteúdo HTML.
+
+Enquanto os templates HTML estão na pasta 'views', os conteúdos estáticos css, javascript e imagens devem ficar na pasta 'static'.
+
