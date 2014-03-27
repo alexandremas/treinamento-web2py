@@ -89,7 +89,7 @@ Agora iremos trabalhar com o código da aplicação. Abra a IDE ou o editor de t
 O primeiro passo que iremos realizar é criar uma tabela produto no nosso banco de dados. Para isto, vá em models/db.py e adicione no fim do código as seguintes linhas:
 
 ```python
- db.define_table('produto',
+db.define_table('produto',
     Field('nome'),
     Field('preco', 'double'),
     Field('quantidade', 'double')
