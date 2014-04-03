@@ -98,3 +98,41 @@ As definições acima seguem o modelo MVC (Modelo, Visão, Controle), comumente 
 - Descrição do evento
 - Situação
 - Destaque
+
+### 3. Implementação
+
+#### 3.1. Definição dos modelos
+
+##### 3.1.1. Definição de usuário
+
+O web2py oferece nativamente uma solução para implementação de usuários e permissões. Iremos nos basear nela para a nossa aplicação, apenas adicionando os campos que não são padrão.
+
+Os campos padrão do web2py são: Nome, email e senha. Iremos adicionar três novos campos: CPF, Tipo de Organização e Telefone para contato. Para isto, devemos alterar a definição da classe de autenticação (Auth) no db.py.
+
+``` python
+# Definição dos circuitos
+# Isto irá mudar mais para frente
+circuitos = ['Circuito do Ouro', 'Circuito das Águas']
+
+
+# Adicionaremos campos adicionais à tabela 'auth_user'
+auth.settings.extra_fields['auth_user'] = [
+	# Adiciona o campo CPF
+    Field('cpf', 
+        requires=[
+            # IS_CPF(), Depende da biblioteca CPF
+            IS_NOT_IN_DB(db, 'auth_user.cpf', error_message='Já existe um usuário cadastrado com este CPF.')
+        ],
+        label='CPF'
+    ),
+    Field('circuito_turistico', 
+        requires=IS_EMPTY_OR(
+                IS_IN_SET(circuitos,
+                error_message='Deixe em branco ou escolha um valor da lista.')),
+        label='Circuito Turístico'
+    )
+    Field('telefone', 
+        label='Telefone'
+    )
+]
+```
