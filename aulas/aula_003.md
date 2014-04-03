@@ -88,9 +88,9 @@ As definições acima seguem o modelo MVC (Modelo, Visão, Controle), comumente 
 - Nome
 - Data de Início
 - Data do Fim
-- Categoria: lista
+- Categoria (lista)
 - Endereço
-- Município
+- Município (lista)
 - Website (opcional)
 - Página no Facebook (opcional)
 - Email de contato
