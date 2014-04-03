@@ -8,8 +8,8 @@ O desenvolvimento de uma aplicação segue, usualmente, os seguintes pontos:
 
 - 1.1. Especificações
 - 1.2. Programação 
-- 1.3.
-- 1.4.
+- 1.3. Testes
+- 1.4. Produção
 
 #### 1.1. Especificação
 
