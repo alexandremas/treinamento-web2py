@@ -68,3 +68,33 @@ As definições acima seguem o modelo MVC (Modelo, Visão, Controle), comumente 
 - Visualizar listagem de eventos aprovados
 - Aprovação do evento
 	- Após a análise do evento, notificar o responsável pelo evento informando a situação da análise
+- Gerar relatórios em PDF
+- Definir eventos em destaque
+
+#### 2.3. Dados necessários
+
+##### 2.3.1. Cadastro de usuário
+
+- Nome
+- CPF
+- Email
+- Telefone
+- Tipo de Organização (Circuito/Prefeitura)
+- Perfil de Acesso
+
+##### 2.3.1. Cadastro de eventos
+
+- Responsável pelo evento
+- Nome
+- Data de Início
+- Data do Fim
+- Categoria: lista
+- Endereço
+- Município
+- Website (opcional)
+- Página no Facebook (opcional)
+- Email de contato
+- Telefone (opcional)
+- Descrição do evento
+- Situação
+- Destaque
