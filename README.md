@@ -10,7 +10,7 @@ Instrutor: [Alexandre Andrade](https://github.com/alexandremas)
 | ------------- |:-----------------:| :---------------------:|:--------------------------------:|:---------------------------------:|
 | 18/03/2014	| 10:00 às 12:00	| Gerais 12º - sala 07 	| [Aula #1](aulas/aula_001.md) 		| 									|
 | 20/03/2014	| 10:00 às 12:00	| Gerais 11º - sala 06 	| [Aula #2](aulas/aula_002.md) 		| [Download](slides/aula_002.odp)   |
-| 03/04/2014	| 10:00 às 12:00	| Gerais 11º - sala 06 	| [Aula #3](aulas/aula_003.md)		|									|
+| 03/04/2014	| 10:00 às 12:00	| Gerais 11º - sala 06 	| [Aula #3](aulas/aula_003.md)		|[Download](slides/aula_003.odp) 									|
 | 08/04/2014	| 10:00 às 12:00	| Gerais 11º - sala 06 	|									|									|
 | 10/04/2014	| 10:00 às 12:00	| Gerais 11º - sala 06 	|									|									|
 | 15/04/2014	| 10:00 às 12:00	| Gerais 11º - sala 06 	|									|									|
