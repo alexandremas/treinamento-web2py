@@ -21,10 +21,10 @@ Definição das tarefas (quais são as ações que o sistema irá executar), inf
 No caso do web2py, as definições dos dados estão na pasta ```models``` da aplicação.
 
 - Definicão das regras
-No caso do web2py, as definições dos dados estão na pasta ```controllers``` da aplicação.
+No caso do web2py, as definições das regras estão na pasta ```controllers``` da aplicação.
 
 - Elaboração das telas
-No caso do web2py, as definições dos dados estão na pasta ```views``` da aplicação.
+No caso do web2py, as definições das páginas html estão na pasta ```views``` da aplicação.
 
 As definições acima seguem o modelo MVC (Modelo, Visão, Controle), comumente utilizado nos frameworks atuais.
 
